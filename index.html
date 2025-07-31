@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEPPINO'S PIZZA</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/docs/assets/images/logo.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="/docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+
+
+<body class="overflow-x-hidden">
+
+    <div id="global-loader"
+        class="hidden transition-opacity duration-300 opacity-0 fixed inset-0 bg-zinc-100 flex justify-center items-center z-50">
+        <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-[#d62735]"></div>
+    </div>
+
+    <div id="bottomToTopScroll"></div>
+    <!-- <div id="navbar"></div> -->
+
+
+
+    <section class="homeBanner md:min-h-screen min-h-screen bg-center bg-cover">
+        <nav class=" py-5 items-center grid md:grid-cols-3 grid-cols-2 p-5  max-w-7xl mx-auto">
+            <div class="md:block hidden"></div>
+            <a data-aos="fade-right" href="/index.html" class="flex md:items-center md:justify-center lg:justify-start">
+                <img src="/docs/assets/images/logo.png" class="lg:h-28 md:mx-auto h-20" alt="logo">
+            </a>
+            <div class="flex items-end  justify-end" data-aos="fade-left">
+                <a href="/order.html"
+                    class="py-3.5 text-center border-2 border-[#b72633] text-nowrap hover:bg-transparent hover:text-[#b72633] transition-all duration-500 px-10 rounded-sm uppercase bg-[#b72633] text-white font-medium">Order
+                    Now</a>
+            </div>
+        </nav>
+
+        <div class="w-full bg-[#b72633] p-5 gap-10 md:gap-14 flex items-center justify-center">
+            <a href="/menu.html"
+                class="font-bold text-2xl hover:text-black transition-all duration-500 text-white">MENU</a>
+            <a href="/menu.html"
+                class="font-bold text-2xl hover:text-black transition-all duration-500 text-white">Contact Us</a>
+        </div>
+
+        <div class="md:max-w-[80%] mx-auto">
+            <div
+                class=" px-4 sm:px-6 lg:px-8 md:text-start text-center relative md:py-20 py-10 flex justify-center flex-col min-h-[70vh]">
+                <img src="/docs/assets/images/left.webp"
+                    class="absolute lg:block hidden left-0 top-1/2 -translate-y-1/2" data-aos="fade-right"
+                    data-aos-delay="400" alt="">
+
+                <img src="/docs/assets/images/right.webp"
+                    class="absolute lg:block hidden right-0 top-1/2 -translate-y-1/2" data-aos="fade-left"
+                    data-aos-delay="400" alt="">
+                <h1 data-aos="fade-up" data-aos-delay="100"
+                    class=" max-w-4xl mx-auto text-center textShadow text-white font-medium italic mb-8 md:text-9xl text-6xl ">
+                    PEPPINO'S PIZZA
+                </h1>
+                <div data-aos="fade-up" data-aos-delay="200"
+                    class="flex mb-9 items-center justify-center gap-3 md:max-w-2xl w-full mx-auto">
+                    <div class="w-40 lg:block hidden h-0.5 bg-white rounded-full"></div>
+                    <p
+                        class="md:max-w-xs w-full mx-auto text-center text-white text-xl md:text-2xl capitalize font-medium ">
+                        the Best New Haven style Pizza in New Britain
+                    </p>
+                    <div class="w-40 lg:block hidden h-0.5 bg-white rounded-full"></div>
+                </div>
+                <div class="flex items-center justify-center w-full" data-aos="fade-up" data-aos-delay="300">
+                    <a href="/order.html"
+                        class="w-full md:w-auto inline-flex items-center justify-center py-4 md:px-20 px-4 text-base font-medium text-center text-lg text-white rounded-sm bg-[#b72633] shadow-xs hover:opacity-80 uppercase transition-all duration-500">
+                        Order Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bg-[#b72633]">
+        <section
+            class="max-w-7xl p-4 md:px-12 mx-auto md:pt-28 md:flex-row flex-col pt-10 flex items-center justify-center lg:gap-8 gap-5">
+            <div class="md:max-w-[50%] bg-[#1a1a1a] rounded-sm w-full p-5">
+                <h2 data-aos="fade-up"
+                    class="text-3xl bg-[#b72633] p-4 text-center md:text-4xl text-white font-bold text-gray-900 mb-6">
+                    About
+                    Us
+                </h2>
+
+                <img src="/docs/assets/images/logo.png" data-aos="fade-up" class="mx-auto py-7" alt="">
+
+                <p data-aos="fade-up"
+                    class="text-lg md:text-xl italic poppin font-medium leading-[3rem] capitalize  text-white text-center text-gray-700 mb-6">
+                    Our pizza is thin crust stretched by hand, made with the finest and freshest ingredients available.
+                    <br>
+                    Fresh dough, made daily with high gluten flour, whole milk mozzarella, imported Italian herbs and
+                    spices, whole plum tomatoes, extra virgin olive oil and Pecorino Romano cheese
+                    <br><br>
+                    Our Menu Features All Kinds Of Mouth-Watering Options Including Pizza, Pastas, Salads, Burgers,
+                    Wings,
+                    Grinders, Gourmet Dinners And Much More All Available For Pick Up, dine in and Delivery
+                </p>
+                <div class="flex items-center mb-6 justify-center w-full" data-aos="fade-up" data-aos-delay="300">
+                    <a href="/order.html"
+                        class="w-full md:w-auto inline-flex items-center justify-center py-4 md:px-20 px-4 text-base font-medium text-center text-lg text-white rounded-sm bg-[#b72633] shadow-xs hover:opacity-80 uppercase transition-all duration-500">
+                        Order Now
+                    </a>
+                </div>
+            </div>
+            <div class="md:max-w-[50%] w-full" data-aos="fade-up" data-aos-delay="200">
+                <div class="relative lg:h-[61rem] about">
+                    <div class="h-full flex items-center justify-center p-8">
+                        <div class="text-white text-center w-full ">
+                            <h1 class="text-4xl md:text-5xl font-bold mb-1">HOURS</h1>
+                            <p class="mb-6">Come visit us today!</p>
+                            <div class="divide-y divide-white/30 text-left">
+                                <div class="flex justify-between py-4">
+                                    <span class="font-semibold">Monday</span>
+                                    <span>11:00AM – 11:00PM</span>
+                                </div>
+                                <div class="flex justify-between py-4">
+                                    <span class="font-semibold">Tuesday</span>
+                                    <span>11:00AM – 11:00PM</span>
+                                </div>
+                                <div class="flex justify-between py-4">
+                                    <span class="font-semibold">Wednesday</span>
+                                    <span>11:00AM – 11:00PM</span>
+                                </div>
+                                <div class="flex justify-between py-4">
+                                    <span class="font-semibold">Thursday</span>
+                                    <span>11:00AM – 11:00PM</span>
+                                </div>
+                                <div class="flex justify-between py-4">
+                                    <span class="font-semibold">Friday</span>
+                                    <span>11:00AM – 12:00AM</span>
+                                </div>
+                                <div class="flex justify-between py-4">
+                                    <span class="font-semibold">Saturday</span>
+                                    <span>11:00AM – 12:00AM</span>
+                                </div>
+                                <div class="flex justify-between py-4">
+                                    <span class="font-semibold">Sunday</span>
+                                    <span class="text-gray-300">Closed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <img src="/docs/assets/images/way.svg" class="w-full rotate-180 md:mt-20 mt-10 object-cover md:h-auto h-10"
+            alt="">
+    </div>
+
+    <section class="bg-black md:py-20 py-10">
+        <div class="max-w-7xl w-full mx-auto p-5 ">
+            <h2 data-aos="fade-up" class="font-bold text-white text-2xl text-center">- MENU -</h2>
+            <h2 data-aos="fade-up"
+                class="text-3xl bg-[#b72633] p-4 text-center md:text-4xl text-white font-bold text-gray-900 mb-6 mt-5">
+                OUR DELICIOUS MENU
+            </h2>
+
+            <div
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:mt-52 md:mt-16 mt-10 xl:grid-cols-5 md:gap-8 gap-12">
+
+                <div data-aos="fade-up" data-aos-delay="200"
+                    class="w-full flex items-center text-center justify-center flex-col">
+                    <img src="/docs/assets/images/pizza.webp" class="transition-all duration-500 hover:scale-105 w-full"
+                        alt="img">
+                    <h2 class="capitalize font-bold text-2xl text-white mt-5 ">Pizzas</h2>
+                    <p class="capitalize text-[#e9a564] mt-2 ">made with fresh ingredients</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="100"
+                    class="w-full xl:-mt-32 flex items-center text-center justify-center flex-col">
+                    <img src="/docs/assets/images/appetizers.webp"
+                        class="transition-all duration-500 hover:scale-105 w-full" alt="img">
+                    <h2 class="capitalize font-bold text-2xl text-white mt-5 ">appetizers</h2>
+                    <p class="capitalize text-[#e9a564] mt-2 ">wings, fries, onions rings and more!
+
+                    </p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay=""
+                    class="w-full xl:-mt-60 flex items-center text-center justify-center flex-col">
+                    <img src="/docs/assets/images/PASTAS.webp"
+                        class="transition-all duration-500 hover:scale-105 w-full" alt="img">
+                    <h2 class="capitalize font-bold text-2xl text-white mt-5 ">PASTAS</h2>
+                    <p class="capitalize text-[#e9a564] mt-2 ">Spaghetti, Ziti and Linguine</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="100"
+                    class="w-full flex xl:-mt-32 items-center text-center justify-center flex-col">
+                    <img src="/docs/assets/images/ClubSandwiches.webp"
+                        class="transition-all duration-500 hover:scale-105 w-full" alt="img">
+                    <h2 class="capitalize font-bold text-2xl text-white mt-5 ">Club Sandwiches</h2>
+                    <p class="capitalize text-[#e9a564] mt-2 ">turkey, ham, roast beef and more!</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200"
+                    class="w-full flex items-center text-center justify-center flex-col">
+                    <img src="/docs/assets/images/BURGERS.webp"
+                        class="transition-all duration-500 hover:scale-105 w-full" alt="img">
+                    <h2 class="capitalize font-bold text-2xl text-white mt-5 ">BURGERS</h2>
+                    <p class="capitalize text-[#e9a564] mt-2 ">Satisfying Burgers</p>
+                </div>
+
+            </div>
+
+            <h2 data-aos="fade-up" class="font-semibold italic md:mt-28 mt-10 text-white text-xl text-center">Quality
+                Ingredients, Tasty Meals</h2>
+            <h2 data-aos="fade-up" class="font-bold mt-4 text-white text-xl text-center">See Full Menu For More Options!
+            </h2>
+
+            <div class="flex items-center justify-center w-full gap-8 mt-10 md:flex-row flex-col" data-aos="fade-up">
+                <a href="/order.html"
+                    class="w-full md:w-auto inline-flex items-center justify-center py-4 md:py-5 md:px-20 px-4 text-base font-medium text-center text-lg text-white rounded-sm bg-[#b72633] shadow-xs hover:opacity-80 uppercase transition-all duration-500">
+                    See Full Menu
+                </a>
+                <a href="/order.html"
+                    class="w-full md:w-auto inline-flex items-center justify-center py-4 md:py-5 md:px-20 px-4 text-base font-medium text-center text-lg text-white rounded-sm bg-[#b72633] shadow-xs hover:opacity-80 uppercase transition-all duration-500">
+                    Order Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[#b72633]">
+        <img src="/docs/assets/images/way.svg" class="w-full object-cover md:h-auto h-10" alt="">
+        <div class="max-w-7xl w-full mx-auto p-5 mt-10">
+            <h2 data-aos="fade-up" class="font-bold text-white text-2xl text-center">- REVIEWS -</h2>
+            <h2 data-aos="fade-up"
+                class="text-3xl bg-[#000] p-4 text-center md:text-4xl text-white font-bold text-white mb-6 mt-5">
+                Happy Costumers!
+            </h2>
+
+            <div class="grid grid-cols-1 items-center md:grid-cols-2 lg:grid-cols-3 md:mt-16 mt-10 md:gap-8 gap-12">
+
+                <div data-aos-delay="200" data-aos="fade-up"
+                    class="w-full flex bg-black rounded-sm p-7 items-center text-center justify-center flex-col">
+                    <p class="capitalize text-white md:!leading-9 text-center ">
+                        ” Best Pizza in New Britain, I have tried them all. This is the closest pizza to New Haven
+                        pizza. Thank you Peppinos for serving me and my family great quality pizza. ”
+                    </p>
+
+                    <div class="flex items-center justify-center gap-2 text-yellow-600 mt-6">
+                        <i class="fa-solid text-xl fa-star"></i>
+                        <i class="fa-solid text-xl fa-star"></i>
+                        <i class="fa-solid text-xl fa-star"></i>
+                        <i class="fa-solid text-xl fa-star"></i>
+                        <i class="fa-solid text-xl fa-star"></i>
+                    </div>
+
+                    <a
+                        class="block mt-6 w-full items-center justify-center py-4 md:px-20 px-4 text-base font-medium text-center text-white rounded-sm bg-[#b72633] shadow-xs uppercase">
+                        Shams C
+                        google Review
+                    </a>
+                </div>
+                <div data-aos="fade-up"
+                    class="w-full flex bg-black rounded-sm p-7 items-center text-center justify-center flex-col">
+                    <p class="capitalize text-white md:!leading-9 text-center ">
+                        ” If I could give 10 stars, I would! This is THE best pizza joint around. I order from here
+                        regularly and I LOVE how personable the guys are! They call when they get here and always ask
+                        how I’m doing and call me by my name etc….I always to very well because, well, they deserve it!
+                        The food is always hot, fresh and delicious and delivered on time. Prices are VERY reasonable
+                        and the selection is huge. I moved here from Western Mass about six months ago and I’m sooo glad
+                        I found Peppino’s; they are definitely my favorite, go-to place now. I just cannot say enough
+                        good things about them! Stellar, excellent service. Business done right for sure! Bravo!!!! ”
+                    </p>
+
+                    <div class="flex items-center justify-center gap-2 text-yellow-600 mt-6">
+                        <i class="fa-solid text-xl fa-star"></i>
+                        <i class="fa-solid text-xl fa-star"></i>
+                        <i class="fa-solid text-xl fa-star"></i>
+                        <i class="fa-solid text-xl fa-star"></i>
+                        <i class="fa-solid text-xl fa-star"></i>
+                    </div>
+
+                    <a
+                        class="block mt-6 w-full items-center justify-center py-4 md:px-20 px-4 text-base font-medium text-center text-white rounded-sm bg-[#b72633] shadow-xs uppercase">
+                        Megan
+                        google Review
+
+
+                    </a>
+                </div>
+                <div data-aos-delay="200" data-aos="fade-up"
+                    class="w-full flex bg-black rounded-sm p-7 items-center text-center justify-center flex-col">
+                    <p class="capitalize text-white md:!leading-9 text-center ">
+                        ” By far the best pizza place in New Britain. Been going here for years and there is literally
+                        no other thin slice pizza in the New Britain area that compares. Try it, you will not regret
+                        it!! ”
+
+
+                    </p>
+
+                    <div class="flex items-center justify-center gap-2 text-yellow-600 mt-6">
+                        <i class="fa-solid text-xl fa-star"></i>
+                        <i class="fa-solid text-xl fa-star"></i>
+                        <i class="fa-solid text-xl fa-star"></i>
+                        <i class="fa-solid text-xl fa-star"></i>
+                        <i class="fa-solid text-xl fa-star"></i>
+                    </div>
+
+                    <a
+                        class="block mt-6 w-full items-center justify-center py-4 md:px-20 px-4 text-base font-medium text-center text-white rounded-sm bg-[#b72633] shadow-xs uppercase">
+                        Daniel Medina
+                        google Review
+
+
+                    </a>
+                </div>
+            </div>
+
+            <!-- <h2 data-aos="fade-up" class="font-semibold md:mt-16 mt-10 text-white text-xl text-center">Check Out Our
+                Reviews</h2>
+            <div data-aos="fade-up"
+                class="text-3xl bg-[#000] p-4 text-center md:text-4xl text-white font-bold text-white mb-6 mt-5">
+                Happy Costumers!
+            </div> -->
+
+            <div class="flex items-center justify-center w-full gap-8 mt-10 md:flex-row flex-col" data-aos="fade-up">
+                <a href="/order.html"
+                    class="w-full md:w-auto inline-flex items-center justify-center py-4 md:py-5 md:px-20 px-4 text-base font-medium text-center text-lg text-white rounded-sm bg-[#000] border-2 border-yellow-600 hover:border-white shadow-xs hover:opacity-80 uppercase transition-all duration-500">
+                    Order Now
+                </a>
+            </div>
+        </div>
+        <img src="/docs/assets/images/way.svg" class="w-full rotate-180 object-cover md:mt-20 mt-10 md:h-auto h-10"
+            alt="">
+    </section>
+
+    <footer class="bg-black pt-10 md:pt-20">
+        <div
+            class=" py-5 border-b pb-10 border-zinc-800 flex items-center grid md:grid-cols-3 md:flex-row flex-col grid-cols-2 p-5  max-w-7xl mx-auto">
+            <div class="flex flex-col items-center lg:w-60 justify-center">
+                <h2 class="font-bold text-xl mb-5 text-white md:text-4xl uppercase ">Follow Us!</h2>
+                <div class="">
+                    <a href="https://www.instagram.com/peppinospizzact/"
+                        class="w-14 h-14 rounded-full  border border-[#b72633] flex items-center justify-center ">
+                        <i class="fa-brands text-2xl text-[#fff] fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <h2 class="font-bold text-2xl text-white italic md:text-5xl text-center">PEPPINO'S PIZZA</h2>
+            <div class="flex gap-10 items-end  justify-end">
+                <a href="/menu.html"
+                    class="font-bold text-2xl hover:text-[#b72633] transition-all duration-500 text-white">MENU</a>
+                <a href="/menu.html"
+                    class="font-bold text-2xl hover:text-[#b72633] transition-all duration-500 text-white">Contact
+                    Us</a>
+            </div>
+        </div>
+        <div class="p-5 max-w-7xl w-full mx-auto md:mt-16 mt-8 grid lg:grid-cols-3 items-center md:grid-cols-2 grid-cols-1 gap-5" >
+
+            <div class="w-full"></div>
+            
+        </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/navbar.js"></script>
+
+</body>
+
+</html>
