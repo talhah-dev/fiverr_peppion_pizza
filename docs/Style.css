@@ -45,6 +45,29 @@ input:user-invalid {
     background-attachment: fixed;
 }
 
+.menu {
+    background: linear-gradient(rgba(0, 0, 0, 0.646), rgba(0, 0, 0, 0.642)), url(/docs/assets/images/menu-hero-peppinos-pizza-min.webp) center/cover no-repeat;
+    background-attachment: fixed;
+}
+
 .about {
     background: linear-gradient(rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 0.523)), url(/docs/assets/images/about.webp) center/cover no-repeat;
+}
+
+.animate-text {
+    animation: slide 2s infinite ease-in-out;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
 }
